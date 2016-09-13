@@ -8,9 +8,9 @@
      <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<script>
 
-<!--dont fuck with this part, not my code, copied and pasted-->
+<!--dont fuck w dis part, not my code, copied and pasted-->
 
-<!----- JQUERY FOR SLIDING NAVIGATION --->
+<!-- JQUERY FOR SLIDING NAVIGATION -->
 $(document).ready(function() {
   $('a[href*=#]').each(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
@@ -21,11 +21,12 @@ $(document).ready(function() {
        if ($target) {
          var targetOffset = $target.offset().top;
 
-<!----- JQUERY CLICK FUNCTION REMOVE AND ADD CLASS "ACTIVE" + SCROLL TO THE #DIV--->
+<!-- JQUERY CLICK FUNCTION REMOVE AND ADD CLASS "ACTIVE" and SCROLL TO THE #DIV -->
+
          $(this).click(function() {
             $("#nav li a").removeClass("active");
             $(this).addClass('active');
-           $('html, body').animate({scrollTop: targetOffset}, 200);
+           $('html, body').animate({scrollTop: targetOffset}, 340);
            return false;
          });
       }
@@ -43,7 +44,7 @@ $(document).ready(function() {
 
 <body>
 
-<!----- HEADER START--->
+<!-- HEADER START-->
 <header id="header">
 <div class="content">
 
@@ -58,17 +59,16 @@ $(document).ready(function() {
 </nav>
 </div>
 </header>
-<!----- HEADER END--->
+<!-- HEADER END-->
 
 
-<!----- SLIDES START --->
+<!-- SLIDES START -->
 
 <!--slide 1-->
 	<div id="slide1">
 		<div class="content">
 			<div id="logo"> </div>
-      <img src="img/logo5.png" align="center"/>
-            <h1>Change You Can Believe In</h1>
+      <img src="img/logo7.png" align="center"/>
 		</div>
     </div>
 
@@ -84,10 +84,7 @@ $(document).ready(function() {
 
    <div id="slide3">
 		<div class="content">
-           <h3>Who We Are</h3>
-     		    <img src="img/theo.png" align="center"/>
-             <h3 class="quotes">Theo Goetemann</h3>
-             <div id="logo00"> </div>
+		<div id="logo00"> </div>
              <img src="img/logo00.png" align="center"/>
 		    </div>
 		</div>

@@ -34,6 +34,7 @@ a.rpanel { float: right; color: #e1e1e1;  font-size: 12px; font-family:'Open San
 
 a.lpanel:hover{ color: #fff; }
 a.rpanel:hover{ color: #fff; }
+
 /*= HEADER & NAVIGATION
 --------------------------------------------------------*/
 
@@ -63,9 +64,19 @@ a.rpanel:hover{ color: #fff; }
 #nav li a.active { color: #fff; opacity:1; border-bottom: 2px solid #fff; }
 #nav li a:hover { color: #fff; opacity:1;  }
 
+/*= TEXT
+--------------------------------------------------------*/
 
 
-/*= QUOTES AND PHOTOS
+/*= FOOTER
+--------------------------------------------------------*/
+
+#copyright  { background: url(../img/slide3.jpg) 50% 0 no-repeat fixed; font-family:'Open Sans', sans-serif;  font-size: 14px; text-align: center;  }
+#copyright  a { text-decoration: none; color: #ff9900;  }
+
+
+
+/*= QUOTES AND BACKGROUND IMAGES
 --------------------------------------------------------*/
 .quotes {
  font-family:'Open Sans', sans-serif;
@@ -75,8 +86,6 @@ a.rpanel:hover{ color: #fff; }
   margin: 50px auto;
 	color: #00AFE9;
 }
-
-
 
 /*first page*/
 #logo { background: url('../img/logo5.png')no-repeat; width: 0px; height: 0px; margin: 0 auto; position: relative; bottom: 0px;}
@@ -111,14 +120,12 @@ button.btn-know {
 ul.built { list-style: none; margin: 0 auto; width: 730px; }
 .built li img{ float: left; padding-right: 34px; }
 
-
-
-/*= SLIDES STYLING
+/*= SLIDE STYLING
 --------------------------------------------------------*/
 
 #slide1, #slide2{ width: 100%; }
 #slide1{
-	background-color: #fff;
+	background: url(../img/1stslide12.png) 50% 0 no-repeat fixed;
 	color: #fff;
 	height: 600px;
 	margin: 0;
@@ -127,7 +134,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 }
 
 #slide2{
-	background: url(../img/slide2.jpg) 50% 0 no-repeat fixed;
+	background-color: #fff;
 	color: #333333;
 	height: 300px;
 	margin: 0 auto;
@@ -136,7 +143,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 }
 
 #slide3{
-	background-color: #fff;
+	background: url(../img/slide2222.png) 50% 0 no-repeat fixed;
 	color: #fff;
 	height: 600px;
 	padding: 170px 0 0 0;
@@ -149,10 +156,3 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	height: 300px;
 	padding: 200px 0;
 }
-
-
-/*= FOOTER
---------------------------------------------------------*/
-
-#copyright  { background: url(../img/slide3.jpg) 50% 0 no-repeat fixed; font-family:'Open Sans', sans-serif;  font-size: 14px; text-align: center;  }
-#copyright  a { text-decoration: none; color: #ff9900;  }

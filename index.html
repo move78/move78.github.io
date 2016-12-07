@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
- <!-- Original made by smarter guys than me from MIT -Tuts talking about you
+ <!-- Original made by smarter guys than us from MIT -Tuts talking about you
  Copyright (c) 2015, Tuts+
 All rights reserved.
 
@@ -65,6 +65,39 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <script type="text/javascript" src="js/singlenav.js"></script>
   <script type="text/javascript" src="js/jquery.fancybox.js"></script>
   <script type="text/javascript" src="js/scripts.js"></script>
+  <script type="text/javascript" src="js/jquery.panelSnap.js"></script>
+  <script>
+      jQuery(function($) {
+        $('body').panelSnap();
+      });
+  </script>
+  <script>
+  jQuery(function($) {
+    var options = {
+      $menu: false,
+      menuSelector: 'a',
+      panelSelector: '> section',
+      namespace: '.panelSnap',
+      onSnapStart: function(){},
+      onSnapFinish: function(){},
+      onActivate: function(){},
+      directionThreshold: 3000,
+      slideSpeed: 700,
+      easing: 'linear',
+      offset: 900,
+      navigation: {
+        keys: {
+          nextKey: true,
+          prevKey: true,
+        },
+        buttons: {
+          $nextButton: false,
+          $prevButton: false,
+        },
+        wrapAround: false
+      }
+    };
+    </script>
 
 </head>
 <body>
@@ -79,9 +112,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <ul class="main-navigation">
     <li><a href="#hero">Home</a></li>
     <li><a href="#Introduction">About Us</a></li>
-    <li><a href="#work">Our Projects</a></li>
+    <li><a href="#work">Reports</a></li>
     <li><a href="#about">Our Team</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#contact">Get in Touch</a></li>
   </ul>
 </nav>
 
@@ -96,7 +129,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       <img src="images/logo8.png" alt="logo">
     </div>
     </div>
-      <h2>Changing how the game's played</h2>
+      <h2>Future City Mapping</h2>
     </div>
   </div>
 </section>
@@ -105,11 +138,14 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
 <section data-sr id="introduction" class="introduction u-full-width">
+  <div class="introduction-image"></div>
+  <div class="container centered">
   <div class="container">
     <div class="row">
       <div class="twelve columns">
         <h3 class="separator">About Us</h3>
-        <h4>We build apps, websites, and prototypes. Efficient and precise, we develop our projects with the sole aim of reconnecting our users with the news, markets, and entertainment that matter to them. </h4>
+        <h5>Our platform identifies areas and communities where local governments should invest in development. Our service has the potential to create tangible changes in communities within New York, Atlanta, and Washington D.C.; these cities all have substantial open data portal initiatives, with accurate and continuously-updated datasets.  </h5>
+        <h5>By mapping these datasets, our consulting service ensures that low-income communities within these cities are not underrepresented in municipal government. Augmented by an accessible and easy-to-use online platform, governments, businesses, and citizens can collaborate to identify areas with the highest potential for growth and development, ensuring that valuable tax revenue is allocated fairly and efficiently to those who need it, when they need it.</h5>
       </div>
     </div>
   </div>
@@ -118,56 +154,21 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
   <!-- OUR WORK
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
 <section data-sr id="work" class="work u-full-width">
+  <div class="work-image"></div>
   <div class="container">
     <div class="row">
       <div class="twelve columns">
-        <h3 class="separator">Our Projects</h3>
+        <h3 class="separator">Reports</h3>
       </div>
-    </div>
-    <div class="row">
-      <ul class="work-filters u-full-width">
-        <li class="active">
-          <a href="#" data-filter="*">All</a>
-        </li>
-        <li>
-          <a href="#" data-filter=".branding">News</a>
-        </li>
-        <li>
-          <a href="#" data-filter=".web-design">Nutrition</a>
-        </li>
-        <li>
-          <a href="#" data-filter=".mobile">Sports</a>
-        </li>
-      </ul>
-    </div>
     <div class="row">
       <ul class="work-items isotope js-isotope u-cf">
         <li class="four columns isotope-item design ui">
-          <img src="images/portfolio/unity.png">
+          <img src="images/portfolio/musiccity3.png">
           <div class="work-detail">
             <div class="vertical-centered">
-              <h3>News</h3>
-              <p class="separator orange">Tangible Change through Sharing</p>
-            </div>
-          </div>
-        </li>
-        <li class="four columns isotope-item branding web-design">
-          <img src="images/portfolio/crono78copy.png">
-          <div class="work-detail">
-            <div class="vertical-centered">
-              <h3>Nutrition</h3>
-              <p class="separator orange">When and What To Eat, 24/7</p>
-            </div>
-          </div>
-        </li>
-        <li class="four columns isotope-item mobile ui branding">
-          <img src="images/portfolio/pastthescreen.png">
-          <div class="work-detail">
-            <div class="vertical-centered">
-              <h3>Sports</h3>
-              <p class="separator orange">Bringing eSports To You</p>
+              <h3>DC Performance Arts Grants</h3>
+              <p class="separator orange">A quantitative analysis of performing arts and culture grants from 2013-2016</p>
             </div>
           </div>
         </li>
@@ -180,6 +181,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 <!-- About -->
 
 <section data-sr id="about" class="about u-full-width">
+  <div class="about-image"></div>
   <div class="container">
     <div class="row">
       <div class="twelve columns">
@@ -190,7 +192,18 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <div class="row">
       <ul class="people-list">
         <li class="three columns people-list-item">
-          <img src="images/theo.png">
+          <img src="images/ben3.jpg">
+          <div class="people-hover">
+            <a href="#"><i class="fa fa-external-link"></i></a>
+            <div class="people-detail">
+              <h3>Ben</h3>
+              <p>Research</p>
+            </div>
+          </div>
+        </li>
+        <li class="three columns people-list-item">
+        <img src="images/theo1.jpg">
+          <img src="images/">
           <div class="people-hover">
             <a href="#"><i class="fa fa-external-link"></i></a>
             <div class="people-detail">
@@ -200,22 +213,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           </div>
         </li>
         <li class="three columns people-list-item">
+        <img src="images/uros3.jpg">
           <img src="images/">
           <div class="people-hover">
             <a href="#"><i class="fa fa-external-link"></i></a>
             <div class="people-detail">
               <h3>Uros</h3>
               <p>Operations</p>
-            </div>
-          </div>
-        </li>
-        <li class="three columns people-list-item">
-          <img src="images/">
-          <div class="people-hover">
-            <a href="#"><i class="fa fa-external-link"></i></a>
-            <div class="people-detail">
-              <h3>Ben</h3>
-              <p>Research</p>
             </div>
           </div>
         </li>
@@ -229,11 +233,14 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 <!-- Contact -->
 
 <section data-sr id="contact" class="contact u-full-width">
+  <div class="contact-image"></div>
   <div class="container">
     <div class="row">
       <div class="twelve columns">
         <h3 class="separator">Get in touch</h3>
         <h4>Feel free to reach out to us by phone or email with any questions you might have. If you're interested in working for Move 78, please send an email with your first and last name in the subject line.</h4>
+        <h4>connectmove78@gmail.com<h4>
+        <h4>(781) 472 9581<h4>
       </div>
     </div>
   </div>
@@ -241,7 +248,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 <!-- Contact Us -->
 
-<section data-sr class="container contact-us u-full-width u-max-full-width">
+<!--<section data-sr class="container contact-us u-full-width u-max-full-width">
   <div class="row">
     <div class="four columns contact-us-details">
       <h5>

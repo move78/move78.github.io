@@ -1,5 +1,5 @@
 
-/*original made my smarter guys than me in MIT */
+/*js scripts written by code-smart-er guys in MIT*/
 textarea {
   min-height: 200px;
   resize: none;
@@ -376,7 +376,7 @@ section {
   padding: 0;
   background-size: cover;
   background-position: 50% 50%;
-  min-height: 600px;
+  min-height: 100px;
   text-align: center;
   position: relative;
   background-color: #696969; /* layer fill content */
@@ -387,18 +387,13 @@ section {
   background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url("../images/viz2.png") 50% 0 no-repeat fixed;
   height: 1024px;
   margin: 0;
-  padding: 200px 0 260px 0;
+  padding: 060px 0 060px 0;
   background-size: cover;
-}
-
-.work p {
-  padding-top: 20px;
-  padding: 15% 15%;
 }
 
 .about {
   padding: 0;
-  min-height: 500px;
+  min-height: 100px;
   text-align: center;
   position: relative;
   background-color: #0E0E00; /* layer fill content */
@@ -407,16 +402,13 @@ section {
 
 .about-image {
   background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("../images/newyaaawk.jpg") 50% 0 no-repeat fixed;
-  height: 1024px;
+  height: 1400px;
   margin: 0;
-  padding: 200px 0 260px 0;
+  padding: 060px 0 060px 0;
   background-size: cover;
 }
 
-.about p {
-  padding-top: 80px;
-  padding: 15% 15%;
-}
+
 
 .contact {
   padding: 0;

@@ -354,7 +354,7 @@ section {
   color: white;
 }
 .introduction-image {
-  background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url("../images/viz2.png") 50% 0 no-repeat fixed;
+  background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url("../images/viz3.png") 50% 0 no-repeat fixed;
   height: 1024px;
   margin: 0;
   padding: 200px 0 260px 0;
@@ -384,7 +384,7 @@ section {
 }
 
 .work-image {
-  background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url("../images/viz2.png") 50% 0 no-repeat fixed;
+  background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url("../images/viz3.png") 50% 0 no-repeat fixed;
   height: 1024px;
   margin: 0;
   padding: 060px 0 060px 0;

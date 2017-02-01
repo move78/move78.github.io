@@ -327,7 +327,7 @@ section {
   color: white;
 }
 .hero-image {
-  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../images/newyaaawk.jpg") 50% 0 no-repeat fixed;
+  background: linear-gradient( rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.5) ), url("../images/newyaaawk.jpg") 50% 0 no-repeat fixed;
   height: 1183px;
   margin: 0;
   padding: 200px 0 260px 0;
@@ -356,7 +356,7 @@ section {
   color: white;
 }
 .introduction-image {
-  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("../images/mockup1.jpg") 50% 0 no-repeat fixed;
+  background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url("../images/mockup1.jpg") 50% 0 no-repeat fixed;
   height: 1024px;
   margin: 0;
   padding: 200px 0 260px 0;
@@ -386,7 +386,7 @@ section {
 }
 
 .work-image {
-  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("../images/mockup1.jpg") 50% 0 no-repeat fixed;
+  background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url("../images/mockup1.jpg") 50% 0 no-repeat fixed;
   height: 1024px;
   margin: 0;
   padding: 060px 0 060px 0;
@@ -407,7 +407,7 @@ section {
 }
 
 .about-image {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6) ), url("../images/newyaaawk.jpg") 50% 0 no-repeat fixed;
+  background: linear-gradient( rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.5) ), url("../images/newyaaawk.jpg") 50% 0 no-repeat fixed;
   height: 1400px;
   margin: 0;
   padding: 060px 0 060px 0;
@@ -429,7 +429,7 @@ section {
 }
 
 .contact-image {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6) ), url("../images/newyaaawk.jpg") 50% 0 no-repeat fixed;
+  background: linear-gradient( rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.5) ), url("../images/newyaaawk.jpg") 50% 0 no-repeat fixed;
   height: 640px;
   margin: 0;
   padding: 200px 0 260px 0;
